@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Monofett&family=Roboto+Mono:wght@700&display=swap');
  
  /*neeeeoooon*/
-  p{
+  .flash{
     font-family: 'Roboto Mono', monospace;
     text-align:center;
     font-size:2em;
-    margin:20px 0 20px 0; 
+    line-height: 1em;
   }
   
   a{
@@ -15,19 +15,19 @@
     transition: all 0.5s;
   }
   
-  p:nth-child(2) a{
+  .flash:nth-child(2) a{
     font-size:1em;
     color:#9da0a3;
     padding-left: 1em;
     
   }
-  p:nth-child(2) a:hover{
+  .flash:nth-child(2) a:hover{
     -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
     -moz-animation: neon2 1.5s ease-in-out infinite alternate;
     animation: neon2 1.5s ease-in-out infinite alternate;
   }
   
-  p a:hover{
+  .flash a:hover{
   color:#ffffff;  
   }
 
@@ -118,7 +118,7 @@ li {
       width: 100%;
     }
     
-    p{
+    .flash{
       font-size:1.5em;
     }
   

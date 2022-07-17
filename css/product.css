@@ -2,6 +2,26 @@
   max-width: 960px;
 }
 
+.display-5 {
+font-family: 'Roboto Mono', monospace;
+}
+
+.content {
+  font-family: 'Roboto Mono', monospace;
+  color: whitesmoke;
+  padding-top: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-size: 1em;
+  line-height: 2.5em;
+  
+}
+
+
+#smaller {
+  font-size: 4em !important;
+  text-align: center;
+}
 /*
  * Custom translucent site header
  */
@@ -67,3 +87,15 @@
     flex: 1;
   }
 }
+@media (max-width: 768px) {
+  .content {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  }
+/* @media (max-width: 1350px) {
+  .product-device shadow-sm d-none d-md-block {
+    display: none;
+  }
+  } */
+
