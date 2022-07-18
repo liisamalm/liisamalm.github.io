@@ -3,8 +3,9 @@
  /*neeeeoooon*/
   .flash{
     font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
     text-align:center;
-    font-size:2em;
+    font-size:1.5em;
     line-height: 1em;
   }
   
